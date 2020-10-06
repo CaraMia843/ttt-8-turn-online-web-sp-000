@@ -10,7 +10,7 @@ def input_to_index(user_input)
   user_input = user_input.to_i - 1
 end
 
-def vaild_move?(board, index)
+def valid_move?(board, index)
   if index.between?(0,8) && !position_taken?(board, index)
     return true 
   end
