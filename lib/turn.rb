@@ -29,7 +29,7 @@ def turn(board)
   input = gets.strip.to_i
   input = input_to_index(input)
   valid = valid_move?(board, input)
-   if valid = true
+   if valid == true
      move(board, input, "X")
      display_board(board)
    else
