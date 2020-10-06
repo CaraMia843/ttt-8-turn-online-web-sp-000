@@ -11,5 +11,5 @@ def input_to_index(user_input)
 end
 
 def vaild_move?(board, index)
-  if input_to_index.between?(0,8) 
+  if input_to_index.between?(0,8) && 
 end
