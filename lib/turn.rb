@@ -29,5 +29,6 @@ def turn(board)
   input = gets.strip.to_i
   input = input_to_index(input)
   if valid_move?
-    move(input)
+    move(board, input, "X")
+  end
 end
