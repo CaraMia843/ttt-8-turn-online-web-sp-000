@@ -7,5 +7,5 @@ def display_board(board)
 end
 
 def input_to_index(board, index, player = "X")
-  user_input = gets.strip.to_i - 1
+  user_input = user_put.to_i - 1
 end
